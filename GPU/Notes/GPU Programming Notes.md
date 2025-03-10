@@ -1,0 +1,31 @@
+## Memory Architecture and Data Locality
+- The memory usage of a kernel plays an important role in occupancy tuning.
+- One must be careful to stay within the SM’s capacity of registers and shared memory.
+- The more resources each thread requires, the fewer the number of threads that can reside in each SM
+- Every SM has a maximum number of threads and maximum number of shared memory capacity.
+	- Thus for all threads to be active, a thread block should not use more than *(maximum shared memory per SM / maximum number of threads)* . 
+	- For example, the A100 GPU can be configured to have up to 164 KB of shared memory per SM and supports a maximum of 2048 threads per SM. Thus for all 2048 thread slots to be used, a thread block should not use more than an average of *(164 KB)/(2048 threads)=82 B/thread*
+	- tldr:
+		- What is
+			- Total threads per SM
+			- Total shared memory per SM
+			- Total register memory per SM
+			- Average shared memory usage per thread block
+			- Average shared memory usage per thread
+- cudaGetDeviceProperties.sharedMemPerBlock gives the amount of shared memory that is available in each SM.
+- Dynamically setting shared memory
+- ``` extern __shared__ Mds_Nds[]; // declared within the kernel```
+- ``` matrixMulKernel<<<dimGrid, dimBlock, sharedMemSize>> (kargs); // within the main program```
+- To achieve good utilization of the execution throughput of a CUDA devices, one needs to strive for a high compute to global memory access ratio in the kernel code.
+- If the ratio is low, the kernel is memory-bound.
+- CUDA provides access to registers, shared memory, and constant memory.
+- Full Occupancy for a GPU is achieved if ALL the threads in the GPU are active, the number assigned blocks does not matter.
+
+## Performance Considerations
+- The most favorable access pattern is achieved when all threads in a warp access consecutive global memory locations.
+- Shared memory is implemented with SRAM technology and does not require coalescing.
+- The main advantage of memory coalescing is that it reduces global memory traffic by combining multiple memory accesses into a single access.
+- Modern double data rate (DDR) busses perform two data transfers per clock cycle.
+- having more banks reduces the probability of multiple simultaneous accesses targeting the same bank, a phenomenon called bank conflict. 
+- Assigning each thread multiple units of work, which is often referred to as thread coarsening.
+- ![[A checklist of optimizations..png]]
