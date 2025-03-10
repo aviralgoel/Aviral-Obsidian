@@ -11,12 +11,14 @@
             "id": "643757c4b04ecc7e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "split-diff-view",
               "state": {
-                "file": "GPU/Images/A checklist of optimizations..png"
+                "aFile": "GPU/Notes/CK Tiling Notes.md",
+                "bFile": "GPU/Notes/CK Tiling Notes.md",
+                "aRef": ""
               },
-              "icon": "lucide-image",
-              "title": "A checklist of optimizations."
+              "icon": "diff",
+              "title": "Diff: CK Tiling Notes"
             }
           }
         ]
@@ -148,16 +150,27 @@
               "icon": "lucide-list",
               "title": "Outline of Questions"
             }
+          },
+          {
+            "id": "543c0fe34a0734d8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,6 +183,7 @@
   "lastOpenFiles": [
     "GPU/Notes/CK Tiling Notes.md",
     "GPU/Notes/GPU Programming Notes.md",
+    "GPU/Images/A checklist of optimizations..png",
     "GPU/Notes/Optimization Notes.md",
     "GPU/Notes/Questions.md",
     "Machine Learning/Transformers.md",
@@ -187,7 +201,6 @@
     "GPU Programming Notes.md",
     "Performance Considerations.md",
     "GPU/GPU Arch.canvas",
-    "GPU/Images/A checklist of optimizations..png",
     "GPU/Images",
     "A checklist of optimizations..md",
     "2025-03-07.md",
