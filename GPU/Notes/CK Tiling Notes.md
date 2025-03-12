@@ -27,3 +27,6 @@ In the case of GEMM, the terms pipeline, epilogue, policy, and tile pipeline are
 ### Epilogue (as described by Thomas):
 
 The epilogue handles the final stage of the computation, where the results in registers or cache are stored back into memory, often requiring shuffling to match a desired format (e.g., row format). The example mentioned is the **CShuffle** operation in older CK versions.
+
+Block -> Wavefront-> Thread
+Block Tile -> WaveTile ->Vectors

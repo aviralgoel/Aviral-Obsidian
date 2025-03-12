@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPU/Notes/CK Tiling Notes.md",
+                "file": "Work/Useful Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CK Tiling Notes"
+              "title": "Useful Commands"
             }
           }
         ]
@@ -181,12 +181,13 @@
   },
   "active": "643757c4b04ecc7e",
   "lastOpenFiles": [
+    "Machine Learning/Transformers.md",
+    "Machine Learning/Flash Attention.md",
     "GPU/Notes/CK Tiling Notes.md",
     "GPU/Notes/GPU Programming Notes.md",
     "GPU/Images/A checklist of optimizations..png",
     "GPU/Notes/Optimization Notes.md",
     "GPU/Notes/Questions.md",
-    "Machine Learning/Transformers.md",
     "PDFs/Transformer Architecture.pdf",
     "Welcome.md",
     "Work/Useful Commands.md",

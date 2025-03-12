@@ -28,10 +28,10 @@
   "gitDir": "",
   "showFileMenu": true,
   "authorInHistoryView": "initials",
-  "dateInHistoryView": true,
+  "dateInHistoryView": false,
   "diffStyle": "split",
   "lineAuthor": {
-    "show": true,
+    "show": false,
     "followMovement": "inactive",
     "authorDisplay": "initials",
     "showCommitHash": false,
