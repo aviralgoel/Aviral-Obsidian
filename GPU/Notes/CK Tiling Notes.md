@@ -30,3 +30,44 @@ The epilogue handles the final stage of the computation, where the results in re
 
 Block -> Wavefront-> Thread
 Block Tile -> WaveTile ->Vectors
+
+## GemmProblem struct
+
+
+```
+struct GemmProblem
+
+{
+
+    CK_TILE_HOST GemmProblem() = default;
+
+    CK_TILE_HOST GemmProblem(
+
+        index_t M_, index_t N_, index_t K_, index_t stride_A_, index_t stride_B_, index_t stride_C_)
+
+        : M(M_), N(N_), K(K_), stride_A(stride_A_), stride_B(stride_B_), stride_C(stride_C_)
+
+    {
+
+    }
+
+  
+
+    index_t M;
+
+    index_t N;
+
+    index_t K;
+
+    index_t stride_A;
+
+    index_t stride_B;
+
+    index_t stride_C;
+
+};
+```
+
+A problem describes or contains the kernel arguments for the task. For instance, GemmProblem is a struct that holds M, N and K dimensions of the matrices, strides for each matrix based on if they are row major or column major. Another child struct ```GemmHostArgs``` that inherits from GemmProblem holds pointers to data matrices as well. 
+
+
