@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPU/Notes/GPU Programming Notes.md",
+                "file": "Work/Useful Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPU Programming Notes"
+              "title": "Useful Commands"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Useful Commands"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,18 +207,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "564b844719395378",
+  "active": "643757c4b04ecc7e",
   "lastOpenFiles": [
+    "GPU/Notes/GPU Programming Notes.md",
+    "GPU/Notes/Optimization Notes.md",
+    "GPU/Notes/CK Tiling Notes.md",
+    "Work/Useful Commands.md",
     "Work/GPU Arch.md",
     "Pasted image 20250330215032.png",
     "Work/Performance Metrics.md",
     "Pasted image 20250327234501.png",
     "Pasted image 20250327234318.png",
-    "Work/Useful Commands.md",
     "Untitled.md",
-    "GPU/Notes/GPU Programming Notes.md",
-    "GPU/Notes/Optimization Notes.md",
-    "GPU/Notes/CK Tiling Notes.md",
     "Machine Learning/Transformers.md",
     "Machine Learning/Flash Attention.md",
     "GPU/Images/A checklist of optimizations..png",
