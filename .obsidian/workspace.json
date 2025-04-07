@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Useful Commands.md",
+                "file": "Work/GPU Arch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Useful Commands"
+              "title": "GPU Arch"
             }
           },
           {
@@ -209,10 +209,11 @@
   },
   "active": "643757c4b04ecc7e",
   "lastOpenFiles": [
+    "Pasted image 20250404080913.png",
+    "Work/Useful Commands.md",
     "GPU/Notes/GPU Programming Notes.md",
     "GPU/Notes/Optimization Notes.md",
     "GPU/Notes/CK Tiling Notes.md",
-    "Work/Useful Commands.md",
     "Work/GPU Arch.md",
     "Pasted image 20250330215032.png",
     "Work/Performance Metrics.md",
