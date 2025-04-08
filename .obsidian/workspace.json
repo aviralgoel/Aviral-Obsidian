@@ -49,7 +49,8 @@
               "title": "Useful Commands"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,14 +208,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "643757c4b04ecc7e",
+  "active": "819f74597b4cf805",
   "lastOpenFiles": [
+    "Work/GPU Arch.md",
     "Pasted image 20250404080913.png",
     "Work/Useful Commands.md",
     "GPU/Notes/GPU Programming Notes.md",
     "GPU/Notes/Optimization Notes.md",
     "GPU/Notes/CK Tiling Notes.md",
-    "Work/GPU Arch.md",
     "Pasted image 20250330215032.png",
     "Work/Performance Metrics.md",
     "Pasted image 20250327234501.png",
