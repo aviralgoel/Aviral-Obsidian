@@ -236,10 +236,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e68f82dc481f9b49",
+  "active": "ac072a95c5f73925",
   "lastOpenFiles": [
-    "Pasted image 20250327234318.png",
     "Work/Useful Commands.md",
+    "Personal/Daily Tasks.md",
+    "Untitled",
+    "Personal",
+    "Pasted image 20250327234318.png",
     "Work/GPU Arch.md",
     "Pasted image 20250404080913.png",
     "GPU/Notes/GPU Programming Notes.md",
@@ -269,8 +272,6 @@
     "GPU/Images",
     "A checklist of optimizations..md",
     "2025-03-07.md",
-    "Composable Kernel.md",
-    "Work",
-    "GPU"
+    "Composable Kernel.md"
   ]
 }
