@@ -223,7 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 267.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,7 +236,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac072a95c5f73925",
+  "active": "e68f82dc481f9b49",
   "lastOpenFiles": [
     "Work/Useful Commands.md",
     "Personal/Daily Tasks.md",
